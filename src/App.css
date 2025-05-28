@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+.authentication-container {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), 
+    url('./assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.welcome {
+  font-family: "Noto Sans", sans-serif;
+}
