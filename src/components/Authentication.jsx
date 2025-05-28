@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AuthForm from './AuthForm';
 
-const AuthenticationPage = () => {
+const Authentication = () => {
   const MultilingualWelcome = () => {
     const welcomes = [
       "Welcome",    // English
@@ -53,4 +53,4 @@ const AuthenticationPage = () => {
   );
 };
 
-export default AuthenticationPage;
+export default Authentication;
